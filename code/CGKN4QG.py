@@ -4,7 +4,7 @@ import torch.nn as nn
 import torch.nn.functional as nnF
 from torch.nn.utils import parameters_to_vector
 import time
-from torchviz import make_dot
+# from torchviz import make_dot
 
 device = "cuda:1"
 torch.manual_seed(0)
